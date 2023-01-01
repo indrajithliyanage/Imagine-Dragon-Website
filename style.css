@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nerko+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nerko One", cursive;
+  color: white;
+}
+
+.main-header {
+  /* background-color: rgba(0, 0, 0, 60%);
+  background-image: url("./images/background.jpg");
+  background-blend-mode: multiply;
+  background-size: cover; */
+  padding: 30px;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 2em;
+  border-bottom: 1px solid white;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0 5%;
+}
+
+.nav li a {
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.band-name {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  color: white;
+}
+
+.band-name-large {
+  font-size: 9em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.content-section p{
+    font-size: 1.5em;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 60%);
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: white;
+
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em 1.5em;  
+}
+
+.section-header {
+  font-family: "Caveat", cursive;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+.about-band-img{
+    float: left;
+     margin: 15px;
+     border-radius: 50%;
+}
+.main-footer{
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+    margin: 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;    
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav li a{
+    display: inline-block;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .7em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CBD;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: #2D9CBD;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row{
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+    padding-right: .5em;
+    display: inline-block;
+}
+
+.tour-date{
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city{
+    width: 42%;
+}
+
+.tour-arena{
+    width: 24%;
+}
+
+.tour-btn{
+    width: 20%;
+}
+
+.btn-primary{
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-primary:hover{
+    background-color: #2D9CDB;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+}
+
+.shop-item-detail{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price{
+    flex-grow: 1;
+}
+
+.shop-items{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cart-column{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-bottom: 10px;    
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+    width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+}
+
+.cart-quantity{
+    width:35%
+}
+
+.cart-item-title{
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger{
+    color: black;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-danger:hover{
+    background-color: brown;
+}
+
+.cart-quantity-input{
+    color: black;
+    height: 35px;
+    font-size: 1.2em;
+    text-align: center;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    margin: 0;
+}
+
+.cart-row:last-child .cart-column{
+    border-bottom: none;
+}
+
+.cart-row:last-child{
+    border-bottom: 2px solid white;
+}
+
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+
+.cart-total-title{
+    font-size: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.cart-total-price{
+    font-size: 1.2em;
+}
+
+.btn-purchase{
+    display: block;
+    margin: 0 auto;
+    font-size: 1.em;
+}
